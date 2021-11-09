@@ -1,0 +1,219 @@
+body{
+    margin: auto;
+    width: 1025px;
+    height: 3150px;
+}
+
+.bilan{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 10px;
+    text-align: center;
+    width: 500px;
+    position: relative;
+    left: 250px;
+}
+
+.city{
+    color:brown;
+    text-align: center;
+    height: 1px;
+}
+
+.assiette{
+    padding-left: 50px;
+}
+
+.sdsg{
+    text-align: center;
+}
+
+.ex{
+    display: block;
+    position: relative;
+    left: 600px;
+    bottom: 275px;
+    border-bottom: 1px solid black;
+    width: 400px;
+}
+
+.merlu{
+    display: block;
+    position: relative;
+    left: 600px;
+    bottom: 275px;
+}
+
+h2{
+    border-bottom: 1px solid black;
+    width: 450px;
+}
+
+.salle{
+    padding-left: 510px;
+    position: relative;
+    bottom: 150px;
+}
+
+.lasalle{
+    margin: 0;
+    position: relative;
+    bottom: 500px;
+    left: 25px;
+    letter-spacing: 5px;
+}
+
+.text1{
+    margin: 0;
+    position: relative;
+    bottom: 495px;
+    left: 25px;
+    font-family: Cormorant Garamond;
+}
+
+.note1{
+    margin: 0;
+    position: relative;
+    bottom: 480px;
+    left: 25px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    width: 200px;
+    letter-spacing: 1px;
+}
+
+.service{
+    padding-right: 485px;
+    position: relative;
+    bottom: 365px;
+}
+
+.leservice{
+    margin: 0;
+    position: relative;
+    bottom: 665px;
+    left: 550px;
+    letter-spacing: 5px;
+}
+
+.text2{
+    margin: 0;
+    position: relative;
+    bottom: 660px;
+    left: 550px;
+}
+
+.note2{
+    margin: 0;
+    position: relative;
+    bottom: 645px;
+    left: 550px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    width: 200px;
+    letter-spacing: 1px;
+}
+
+.dressage{
+    padding-left: 510px;
+    position: relative;
+    bottom: 510px;
+}
+
+.ledressage{
+    margin: 0;
+    position: relative;
+    bottom: 910px;
+    left: 25px;
+    letter-spacing: 5px;
+}
+
+.text3{
+    margin: 0;
+    position: relative;
+    bottom: 900px;
+    left: 25px;
+}
+
+.note3{
+    margin: 0;
+    position: relative;
+    bottom: 890px;
+    left: 25px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    width: 200px;
+    letter-spacing: 1px;
+}
+
+.gout{
+    padding-right: 485px;
+    position: relative;
+    bottom: 635px;
+}
+
+.legout{
+    margin: 0;
+    position: relative;
+    bottom: 1000px;
+    left: 550px;
+    letter-spacing: 5px;
+}
+
+.text4{
+    margin: 0;
+    position: relative;
+    bottom: 995px;
+    left: 550px;
+}
+
+.note4{
+    margin: 0;
+    position: relative;
+    bottom: 980px;
+    left: 550px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    width: 200px;
+    letter-spacing: 1px;
+}
+
+.plan{
+    text-align: center;
+    position: relative;
+    bottom: 775px;
+    box-shadow: 10px;
+}
+
+.cityguide{
+    color: darkgray;
+    text-align: center;
+    position: relative;
+    bottom: 870px;
+    letter-spacing: 1px;
+}
+
+.septime{
+    border-bottom: 1.5px solid black;
+    border-top: 1.5px solid black;
+    letter-spacing: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 825px;
+    left: 250px;
+    width: 500px;
+}
+
+.a{
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    bottom: 835px;
+    height: 15px;
+}
