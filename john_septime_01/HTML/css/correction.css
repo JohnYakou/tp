@@ -1,0 +1,178 @@
+/* Import de Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+
+/* --------------- body ------------------------------------*/
+
+body{
+    font-family: "Cormorant Garamond", serif;
+    background-color: #f6f6f6;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* --------------- header ------------------------------------*/
+
+header{
+    width: 50%;
+    margin: 10% auto 5%;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* --------------- titre ------------------------------------*/
+
+.titre{
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+header h2.titre, footer h5.titre{
+    color: #cf884d;
+    font-weight: bold;
+    font-size: 0.65rem;
+}
+
+/* --------------- #plat ------------------------------------*/
+
+#plat .plate{
+    width: 49%;
+    text-align: right;
+}
+
+#plat .plate:last-of-type{
+    position: relative;
+    right: 15%;
+}
+
+#plat .plate img{
+    border-radius: 50%;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#plat .plate h3{
+    font-style: italic;
+    font-size: 1.5vw;
+}
+
+#plat .plate p{
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 1vw;
+    letter-spacing: 0.1rem;
+}
+
+/* --------------- .plate ------------------------------------*/
+
+.plate{
+    width: 49.94%;
+    margin: 0;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+/* Les blocs .plate qui contiennent du texte */
+
+#salle .plate:first-child, 
+#service .plate:last-child, 
+#dressage .plate:first-child, 
+#gout .plate:last-child{
+    padding: 3%;
+    width: 43.3%;
+}
+
+.plate img{
+    width: 100%;
+    height: auto;
+}
+
+/* Agencement du texte */
+
+.plate h3{
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.plate p{
+    font-style: italic;
+    font-size: 1vw;
+}
+
+.plate p:last-of-type{
+    margin-bottom: 5%;
+}
+
+.plate span{
+    background-color: #383838;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2vw;
+    padding: 1% 7% 1% 2%;
+    margin-top: 2%;
+}
+
+/* front-awesome début */
+
+.plate i{
+    font-size: 1vw;
+    margin: 0.5%;
+}
+
+/* front-awesome fin */
+
+/* gout */
+
+/* ------ #gout ------ */
+
+#gout{
+    margin-bottom: 10%;
+}
+   
+  
+/* ------ footer ------ */
+
+footer{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20%;
+    font-weight: bold;
+}
+
+footer h5.titre{
+    color: black;
+    font-size: 1rem;
+    padding: 3.5rem 0; /*haut et bas - droite et gauche*/
+    background-image: url("../image/plan.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer p{
+    text-transform: uppercase; /*met le texte en majuscules*/
+}
+  
+footer em{
+    font-size: 1.5vw;
+    font-style: italic;
+    line-height: 5rem;
+}
+
+  /*fin*/
