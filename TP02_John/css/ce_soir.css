@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+
+/* ----- body ----- */
+
+body{
+    margin: 0 auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* ----- header ----- */
+
+header{
+    font-family: 'Caveat Brush', cursive;
+}
+
+/* ----- h1 ----- */
+
+.titre{
+    position: relative;
+    bottom: 1150px;
+    left: 50px;
+}
+
+.rectangle1{
+    width:30px;
+    height:12.5px;
+    background-color:magenta;
+    position: relative;
+    bottom: 1170px;
+    left: 80px;
+}
+
+.fleche{
+    color: magenta;
+    position: relative;
+    bottom: 900px;
+    left: 875px;
+    height: 200px;
+}
+
+/* nav */
+
+nav{
+    text-align: center;
+    position: relative;
+    bottom: 1910px;
+    left: 700px;
+    word-spacing: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* cerf + triangle */
+
+.cerf{
+    z-index: 2;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 1000px;
+}
+
+.triangle{
+    z-index: 1;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 300px solid magenta;
+    border-left : 300px solid transparent;
+    position: relative;
+    bottom: 1325px;
+    left: 775px;
+    
+}
+
+/* Asperge */
+
+.asperge{
+    position: relative;
+    bottom: 1040px;
+    left: 700px;
+}
+
+.os{
+    text-align: center;
+    width: 30%;
+    position: relative;
+    bottom: 1550px;
+    left: 50px;
+}
+
+.est{
+    text-align: center;
+    width: 30%;
+    position: relative;
+    bottom: 1550px;
+    left: 300px;
+    color: magenta;
+}
+
+.rectangle01{
+    width:40px;
+    height:12.5px;
+    background-color:magenta;
+    position: relative;
+    bottom: 1550px;
+    left: 312.5px;
+}
+
+/* Soap */
+
+.soap{
+    position: relative;
+    bottom: 1282px;
+}
+
+.graine01{
+    position: relative;
+    bottom: 2100px;
+    left: 1375px;
+}
+
+.ff{
+    text-align: center;
+    width: 30%;
+    position: relative;
+    bottom: 2100px;
+    left: 1300px;
+}
+
+.rectangle02{
+    width:30px;
+    height:12.5px;
+    background-color:magenta;
+    position: relative;
+    bottom: 2100px;
+    left: 1575px;
+}
+
+.natural{
+    color: magenta;
+    position: relative;
+    bottom: 2075px;
+    left: 1540px;
+}
+
+/* Moule */
+
+.moule{
+    position: relative;
+    bottom: 1813px;
+    left: 675px;
+}
+
+.graine02{
+    position: relative;
+    bottom: 2600px;
+    left: 135px;
+}
+
+.local{
+    text-align: center;
+    width: 30%;
+    position: relative;
+    bottom: 2680px;
+    left: 25px;
+}
+
+.rectangle03{
+    width:30px;
+    height:12.5px;
+    background-color:magenta;
+    position: relative;
+    bottom: 2680px;
+    left: 300px;
+}
+
+.liquor{
+    color: magenta;
+    position: relative;
+    bottom: 2660px;
+    left: 240px;
+}
+
+.eggs{
+    position: relative;
+    bottom: 2440px;
+}
+
+/* footer */
+
+footer{
+    position: relative;
+    bottom: 2435px;
+}
+
+.soir{
+    font-family: 'Caveat Brush', cursive;
+    position: relative;
+    bottom: 1450px;
+    left: 75px;
+}
+
+.rectangle04{
+    width:40px;
+    height:12.5px;
+    background-color:magenta;
+    position: relative;
+    bottom: 1465px;
+    left: 90px;
+}
+
+.adresse{
+    position: relative;
+    left: 40px;
+    bottom: 1450px;
+}
+
+.tel{
+    position: relative;
+    left: 40px;
+    bottom: 1450px;
+}
+
+span i{
+    position: relative;
+    left: 1750px;
+    bottom: 1400px;
+}
