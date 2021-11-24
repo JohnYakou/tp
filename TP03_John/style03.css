@@ -1,0 +1,129 @@
+body{
+    margin: auto;
+    width: 52.549%;
+}
+
+/* header */
+
+header{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+header div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+.vvv{
+    color: rgb(224, 36, 168);
+}
+
+.num{
+    color: rgb(103, 220, 255);
+    position: relative; /* j'était obligé d'utiliser une "postion" pour mettre un texte au dessus d'une image */
+    bottom: 12.5px;
+    right: 330px;
+}
+
+.article, .article1{
+    background-color: rgb(103,220,255);
+    color: white;
+}
+
+.article1{
+    position: relative;
+    width: 230px;
+    bottom: 55px;
+    left: 500px;
+}
+
+/* Section des navs, je l'ai retiré du header et mises dans un section a part, car elles genées le "flex" */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+nav ul{
+    text-decoration: none;
+    color: white;
+    background : rgb(103,220,255);
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.rose{
+    background: rgb(224, 36, 168);
+}
+
+section{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+h3, .aide{
+    color: rgb(103, 220, 255);
+}
+
+/* la section conteneur */
+
+.conteneur div{
+    border: 1px solid lightgray;
+}
+
+
+.conteneur p{
+    display: flex;
+    justify-content: end;
+}
+
+.conteneur article{
+    display: flex;
+    justify-content: end;
+    color: rgb(103, 220, 255);
+    text-decoration: underline;
+}
+
+h4{
+    border: 1px solid darkgray;
+    border-radius: 25%;
+}
+
+/* footer */
+
+footer{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(103,220,255);
+    color: white;
+    flex-direction: row;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+footer ul li{
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+}
