@@ -1,0 +1,148 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+
+/* HEADER */
+
+.fondgris{
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.shop{
+    padding-left: 200px;
+    background-color: lavender;
+    margin: 0;
+}
+
+.hautgauche{
+    background-color: lavender;
+    margin: 0;
+    display: flex;
+    padding-left: 1100px;
+}
+
+.hautdroite{
+    background-color: lavender;
+    margin: 0;
+    display: flex;
+    padding-left: 1100px;
+}
+
+.compte{
+    padding-left: 50px;
+}
+
+.conseilpanier{
+    height: 60px;
+}
+
+/* DEBUT NAV */
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: ghostwhite;
+    height: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* FIN NAV */
+
+/* DEBUT SLIDER */
+
+.slider{
+    display: flex;
+}
+
+/* DEBUT LES ICONES */
+
+.icones{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* FIN LES ICONES */
+
+/* DEBUT NOS PRODUITS */
+
+.carrelagesection div{
+    float: left;
+    justify-content: space-between;
+}
+
+h2{
+    background-color: magenta;
+    color: white;
+    width: 10%;
+    text-align: center;
+}
+
+.carrelage{
+    border: 1px solid gray;
+    width: 21%;
+}
+
+.prix{
+    color: magenta;
+    text-align: center;
+}
+
+article{
+    display: flex;
+}
+
+.loupe{
+    background-color: black;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.cadi{
+    background-color: magenta;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.devis{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.clear{
+    clear: both;
+}
+
+/* FIN NOS PRODUITS */
+
+/* DEBUT FOOTER */
+
+.carte{
+    display: flex;
+    flex-direction: column;
+}
+
+/* DEBUT FOOTER */
+
+.basdepage{    
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    text-decoration: underline;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body{
+    font-family: shadows into Light;
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin: auto;
+    background-color: #273878;
+    font-size: 50px;
+}
+
+.section{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #273878;
+}
