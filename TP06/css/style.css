@@ -1,0 +1,139 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+nav ul{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.ticket{
+    background-color: #1c5f81;
+    padding: 15px;
+}
+
+.logodino{
+    position: absolute;
+    right: 500px;
+    top: 250px;
+    z-index: 1;
+}
+
+.climatise{
+    position: absolute;
+    right: -10px;
+    bottom: -420px;
+}
+
+/* MAIN */
+
+/* SECTION DINOYEUX */
+
+.dinoyeux{
+    text-align: center;
+}
+
+.dinoyeux h2{
+    font-size: 55px;
+}
+
+.dinoyeux p{
+    text-align: left;
+    width: 37.5%;
+    margin-left: 30.5%;
+}
+
+/* SECTION .WORLD */
+
+.world{
+    text-align: center;
+}
+
+.world p{
+    font-size: 27.5px;
+}
+
+.world a, 
+.achat{
+    text-decoration: none;
+    color: white;
+    background-color: #1c5f81;
+    padding: 15px;
+}
+
+/* SECTION  .TRAJET */
+
+hr{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.trajet{
+    display: flex;
+    justify-content: space-around;
+}
+
+.trajet li{
+    list-style: none;
+}
+
+.venir{
+    width: 35%;
+}
+
+/* SECTION .PARTENAIRES */
+
+.partenaires{
+    font-size: 30px;
+    text-align: center;
+}
+
+.partenaires div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+}
+
+footer div a{
+    text-decoration: none;
+    color: white;
+}
+
+footer div, 
+footer img{
+    margin-top: 100px;
+}

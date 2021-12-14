@@ -140,7 +140,7 @@ article{
 
 /* DEBUT FOOTER */
 
-.basdepage{    
+footer section{    
     display: flex;
     flex-direction: column;
     color: gray;
