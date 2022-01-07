@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="widht=devive-wihdt, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta name="author" content="John Yakou" />
+    <meta name="keywords" content=", , , , mot1, mot2, serie de mots" />
+    <title>TP08 - Voiture</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- BODY -->
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <img src="img/background.jpg" alt="voiture grise" />
+          <h1>Bienvenue à bord</h1>
+          <p>Location de voiture 24h/24 et 7j/7</p>
+        </div>
+
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Adresse de départ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Début de location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fin de location</a>
+          </li>
+          <li class="nav-item2">
+            <a class="nav-link disabled" href="#">Valider ma recherche</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <div class="prix">
+        <p><span>7</span> résultats</p>
+
+        <button type="button">Prix croissant</button>
+      </div>
+
+      <!-- CAROUSEL -->
+      <!-- <div class="slideshow-container">
+  <div class="vehicule">
+    <div class="mySlide fade">
+      <img src="img/vehicule1.png" alt="Peugeot 208">
+    </div>
+  </div>
+  <div>
+    <h2>Peugeot 208</h2>
+    <p>
+      Diesel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5km
+      supplémentaire),
+      <p>999 € - Agence de Paris</p>
+    </p>
+    <button type="button">Réservez et Payez</button>
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+  </div>
+</div> -->
+
+      <div class="slideshow-container">
+        <div class="vehicule">
+          <div class="mySlides fade">
+            <img src="img/vehicule1.png" alt="Peugeot 208" />
+          </div>
+          <div>
+            <h2>Peugeot 208</h2>
+            <p>
+              Disel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5km
+              supplémentaire),
+            </p>
+            <p>999 € - Agence de Paris</p>
+
+            <button class="reserv" type="button">Réservez et Payez</button>
+          </div>
+
+          <div>
+            <div class="mySlides fade">
+              <img src="img/vehicule2.png" alt="Ford Focus" />
+            </div>
+            <div class="voiture">
+              <h2>Ford Focus</h2>
+              <p>
+                Disel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5km
+                supplémentaire),
+              </p>
+              <p>999 €</p>
+
+              <button class="reserv" type="button">Réservez et Payez</button>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/vehicule3.png" alt="Audi A1" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/vehicule4.png" alt="Opel Mokka" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+      <hr />
+
+      <div class="slideshow-container">
+        <div class="vehicule">
+          <div class="mySlides fade">
+            <img src="img/vehicule2.png" alt="Peugeot 208" />
+          </div>
+          <div>
+            <h2>Peugeot 208</h2>
+            <p>
+              Disel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5km
+              supplémentaire),
+            </p>
+            <p>999 € - Agence de Paris</p>
+
+            <button class="reserv" type="button">Réservez et Payez</button>
+          </div>
+
+          <div>
+            <div class="mySlides fade">
+              <img src="img/vehicule3.png" alt="Ford Focus" />
+            </div>
+            <div class="voiture">
+              <h2>Ford Focus</h2>
+              <p>
+                Disel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5km
+                supplémentaire),
+              </p>
+              <p>999 €</p>
+
+              <button class="reserv" type="button">Réservez et Payez</button>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/vehicule4.png" alt="Audi A1" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/vehicule1.png" alt="Opel Mokka" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="slideshow-container">
+        <div class="vehicule">
+          <div class="mySlides fade">
+            <img src="img/vehicule3.png" alt="Peugeot 208" />
+          </div>
+          <div>
+            <h2>Peugeot 208</h2>
+            <p>
+              Disel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5km
+              supplémentaire),
+            </p>
+            <p>999 € - Agence de Paris</p>
+
+            <button class="reserv" type="button">Réservez et Payez</button>
+          </div>
+
+          <div>
+            <div class="mySlides fade">
+              <img src="img/vehicule4.png" alt="Ford Focus" />
+            </div>
+            <div class="voiture">
+              <h2>Ford Focus</h2>
+              <p>
+                Disel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5km
+                supplémentaire),
+              </p>
+              <p>999 €</p>
+
+              <button class="reserv" type="button">Réservez et Payez</button>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/vehicule1.png" alt="Audi A1" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/vehicule2.png" alt="Opel Mokka" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="slideshow-container">
+        <div class="vehicule">
+          <div class="mySlides fade">
+            <img src="img/vehicule4.png" alt="Peugeot 208" />
+          </div>
+          <div>
+            <h2>Peugeot 208</h2>
+            <p>
+              Diesel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5km
+              supplémentaire),
+            </p>
+            <p>999 € - Agence de Paris</p>
+
+            <button class="reserv" type="button">Réservez et Payez</button>
+          </div>
+
+          <div>
+            <div class="mySlides fade">
+              <img src="img/vehicule1.png" alt="Ford Focus" />
+            </div>
+            <div class="voiture">
+              <h2>Ford Focus</h2>
+              <p>
+                Disel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5km
+                supplémentaire),
+              </p>
+              <p>999 €</p>
+
+              <button class="reserv" type="button">Réservez et Payez</button>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/vehicule2.png" alt="Audi A1" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/vehicule1.png" alt="Opel Mokka" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+
+      <hr />
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="footer">
+              <div>
+                <img src="img/agence.jpg" alt="Agence de Paris" />
+              </div>
+              <div>
+                <p>
+                  Notre agence de <span>Paris</span>
+                  <br />
+                  300 boulevard de vaugirard, 75015, Paris
+                  <br />
+                  Ouvert 7j/7 de 09h à 13h et de 14h à 20h
+                  <br />
+                  01 49 78 21 33
+                  <br />
+                  contact@vtc.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- CE QUE J'AI FAIT AVANT LE CAROUSEL -->
+      <!-- <div class="container">
+        <div class="row">
+        <div class="vehicule">
+            <a class="chevron" href="#"><i class="fas fa-chevron-left"></i></a>
+          <div>
+            <img src="img/vehicule1.png" alt="Peugeot 208" />
+          </div>
+          <a class="chevron" href="#"><i class="fas fa-chevron-right"></i></a>
+          <div>
+            <h2>Peugeot 208</h2>
+            <p>
+              Disel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5km
+              supplémentaire,
+              <p>999 € - Agence de Paris</p>
+            </p>
+            <button class="reserv" type="button">Réservez et Payez</button>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="vehicule">
+            <a class="chevron" href="#"><i class="fas fa-chevron-left"></i></a>
+          <div>
+            <img src="img/vehicule2.png" alt="Ford Focus" />
+          </div>
+          <a class="chevron" href="#"><i class="fas fa-chevron-right"></i></a>
+          <div>
+            <h2>Ford Focus</h2>
+            <p>
+              Disel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5km
+              supplémentaire,
+              <p>999 €</p>
+            </p>
+            <button class="reserv" type="button">Réservez et Payez</button>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="vehicule">
+            <a class="chevron" href="#"><i class="fas fa-chevron-left"></i></a>
+          <div>
+            <img src="img/vehicule3.png" alt="Audi A1" />
+          </div>
+          <a class="chevron" href="#"><i class="fas fa-chevron-right"></i></a>
+          <div>
+            <h2>Audi A1</h2>
+            <p>
+              Disel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.55km
+              supplémentaire,
+              <p>1100 € - Agence de Paris</p>
+            </p>
+            <button class="reserv" type="button">Réservez et Payez</button>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="vehicule">
+            <a class="chevron" href="#"><i class="fas fa-chevron-left"></i></a>
+          <div>
+            <img src="img/vehicule4.png" alt="Opel Mokka" />
+          </div>
+          <a class="chevron" href="#"><i class="fas fa-chevron-right"></i></a>
+          <div>
+            <h2>Opel Mokka</h2>
+            <p>
+              Disel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.4km
+              supplémentaire,
+              <p>1150 € - Agence de Paris</p>
+            </p>
+            <button class="reserv" type="button">Réservez et Payez</button>
+          </div>
+        </div>
+    </div>
+      </div> -->
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
